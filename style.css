@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  .cover{
+    background:no-repeat, linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://images.unsplash.com/photo-1506784693919-ef06d93c28d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .cover-content{
+    min-height: 100vh;
+  }
+  .cover-content img{
+  
+    max-width: 250px;
+    border:2px solid rgb(255, 255, 255);
+  }
+  
+  .about{
+    background-color: #ececec;
+  }
+  
+  @media screen and (max-width: 760px) {
+    .cover-content h1{
+        font-size: 36px;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+  
+    .cover-content h6{
+        font-size: 15px;
+    }
+  }
+
+
+  .row{
+  align-items: 400px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .progress {
+    border: 1px solid #B0B0B0;
+    width: 20em;
+    border-radius: 4px;
+    box-shadow: 0 0 3px #B0B0;
+    backdrop-filter: blur(2px) brightness(101%);
+  }
+  
+  .bar {
+    width: 17em;
+    background: rgb(217, 79, 15);
+    box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+  }
+  
+  .bar.spanish {
+    background: rgb(11, 133, 255);
+    width: 82%;
+  }
+  
+  .bar.italian {
+    background: rgb(23, 42, 188);
+    width: 70%;
+  }
+  
+  .bar.french {
+    background: rgb(45, 75, 4);
+    width: 65%;
+  }
+  
+  
+  
+  input[type="comments"]
+  {
+      width: 60%;
+      height: 100px;
+  }
+  
+  input[type="text"]
+  {
+      width: 60%;
+      height: 50px;
+  }
+  
+  input[type="email"]
+  {
+      width: 60%;
+      height: 50px;
+  }
+  
+  input[type="number"]
+  {
+      width: 60%;
+      height: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  h1 {
+    font-size: 5em;
+    color: rgb(172, 172, 172);
+    text-transform: uppercase;
+  }
+  
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
